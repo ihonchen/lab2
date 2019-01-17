@@ -1,4 +1,13 @@
 
+function initializePage() {
+	$("#buttontop").click(function(e) {
+		$('.jumbotron h1').text("javascript is working");
+	})};
+
+$(document).ready(function() {
+   initializePage();
+});
+
 $("a.thumbnail").click(projectClick);
 
 
